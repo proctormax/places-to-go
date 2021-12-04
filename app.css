@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+.container{
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+}
+
+.dest-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.destination{
+    background-color: #0c191f;
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    margin: 0.4em;
+    min-height: 220px;
+    flex: 0 1 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.destination > h2{
+    margin: 0;
+    transform: rotate(-45deg);
+    text-shadow: 0 0 4px #01579b;
+}
+
+#florida{
+    color: #09d;
+}
+
+#arkansas{
+    color: #9d0;
+}
+
+#montana{
+    color: #dd3;
+}
+#massachussets{
+    color: #3dd;
+}
