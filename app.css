@@ -59,3 +59,7 @@ body{
 #massachussets{
     color: #3dd;
 }
+
+.destination:hover{
+    transform: rotate(0deg);
+}
