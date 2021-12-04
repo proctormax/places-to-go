@@ -43,6 +43,9 @@ body{
     margin: 0;
     transform: rotate(-45deg);
     text-shadow: 0 0 4px #01579b;
+    
+    transition: transform 0.4s;
+    
 }
 
 #florida{
